@@ -2,4 +2,4 @@
 new
 
 testing complete. Success. VSC
-testing project 12
+testing project 12 -success
