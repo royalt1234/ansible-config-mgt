@@ -2,7 +2,7 @@
 # tasks file for nginxRole
 - name: Install nginx
   become: yes
-  yum:
+  apt:
     name: nginx
     state: present
 
