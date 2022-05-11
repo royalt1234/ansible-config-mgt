@@ -1,14 +1,14 @@
----
 # tasks file for apacheRole
-- name: Install apache
+---
+- name: Install apache packages
   become: yes
   yum:
-    name: apache2
+    name: httpd
     state: present
 
 
-- name: start apache2 service
+- name: ensure httpd is running
   become: yes
   service:
-    name: apache2
+    name: httpd
     state: started
