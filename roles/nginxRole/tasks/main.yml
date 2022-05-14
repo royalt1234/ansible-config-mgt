@@ -7,7 +7,6 @@
     state: present
 
 
-
 - name: start nginx
   become: yes
   service:
