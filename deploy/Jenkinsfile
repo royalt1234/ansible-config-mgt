@@ -6,9 +6,8 @@ pipeline {
         steps {
             script {
             sh 'echo "Building Stage"'
+                }
             }
-        }
-        }
         }
 
         stage('Test') {
@@ -18,4 +17,5 @@ pipeline {
                 }
             }
         }
+    }
 }
