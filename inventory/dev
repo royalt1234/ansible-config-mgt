@@ -8,5 +8,5 @@
 [db]
 172.31.30.1 ansible_ssh_user='ec2-user' 
 
-[lb]
-172.31.26.182 ansible_ssh_user='ubuntu'
+[nginx]
+172.31.30.71 ansible_ssh_user='ec2-user'
